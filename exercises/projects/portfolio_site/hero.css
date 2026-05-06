@@ -13,6 +13,7 @@
 }
 .hero p{
     font-size: 1.25rem;
+    color: var(--color-light);
 }
 @media screen and (max-width :768px){
     .hero h1{
@@ -25,9 +26,9 @@ span.name{
 .cta-button{
     display: inline-block;
     box-sizing: border-box;
-    background-color: white;
-    justify-content:center ;
-    align-items: center;    
+    background-color: var(--color-light);
+    color: var(--color-secondary);
+    text-align: center;
     margin: 20px;
     padding: 20px;
     text-decoration: none;

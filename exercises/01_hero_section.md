@@ -109,12 +109,12 @@ header {
 
 ## ✅ Success Criteria
 
-- [ ] Header sticky và responsive
-- [ ] Nav links hover effect hoạt động
-- [ ] Hero full viewport height
-- [ ] CTA button có hover animation
-- [ ] Mobile menu toggle hoạt động
-- [ ] Git commit message đúng convention
+- [v] Header sticky và responsive
+- [v] Nav links hover effect hoạt động
+- [v] Hero full viewport height
+- [v] CTA button có hover animation
+- [v] Mobile menu toggle hoạt động
+- [v] Git commit message đúng convention
 
 ---
 

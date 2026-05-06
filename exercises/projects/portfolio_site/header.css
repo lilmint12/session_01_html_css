@@ -13,7 +13,7 @@ header{
     font-family: var(--font-main);    
 }
 .logo{
-    color: rgb(0, 89, 255);
+    color: var(--color-primary);
     padding-left: 10%;
 }
 nav{
@@ -42,10 +42,29 @@ nav a:hover{
     padding-right: 10%;
     color: #333;
 }
-@media screen and (max-width :768px){
-    .hamburger-icon {
-        display: block; 
+@media screen and (max-width: 768px) {
+    nav {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 100%; /* Sổ xuống ngay dưới header */
+        left: 0;
+        width: 100%;
+        background: var(--color-light);
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     }
-    .menu-toggle:checked ~ nav { display: flex; }
+    nav a {
+        display: block; 
+        padding: 10px 0;
+        text-align: center;
+    }
+    .hamburger-icon {
+        display: block;
+        padding-right: 10%;
+    }
+    .menu-toggle:checked ~ nav {
+        display: flex;
+    }
 }
 
